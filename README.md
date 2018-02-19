@@ -1,18 +1,30 @@
-# Understanding the Claremont Independent
-All the tools we used to assemble our report on the Claremont Independent's connections and influences beyond the campus boundaries.
+## Understanding the Claremont Independent
 
+* Read the article [here]().
+* See the dataset of Collegiate Network publications [here]().
+* Assess the methodolgy of linguistic and backlink visualizations [here]().
 
-## Our Data
-## Methodologies
-## Our Tools
+Continue reading this page to set up a coding environment where you can explore our data for yourself.
 
-## Setting Up the Coding Environment
+### Setting Up the Coding Environment
 
-##### 1. Download [Anaconda](https://www.anaconda.com/download/#macos)
-##### 2. Make Project Directory
-
+##### 1. Download [Anaconda (MacOS)](https://www.anaconda.com/download/#macos)
 ```bash
-# Create project folder in desired location on computer.
+# Ensure the path to the "conda" command is in your $PATH
+cd
+vi .bash_profile
+
+# You should see the following somewhere in the file;
+export PATH="/Users/{your-user-name}/anaconda3/bin:$PATH"
+
+# To exit the file viewer, type:
+:q
+```
+
+##### 2. Make Project Directory
+```bash
+# Create project folder on your desktop.
+cd Dekstop
 mkdir Claremont-Independent-Report
 cd Claremont-Independent-Report
 ```
