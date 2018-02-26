@@ -6,9 +6,9 @@
 
 Continue reading this page to set up a coding environment where you can explore our data for yourself.
 
-### Setting Up the Coding Environment
+### Getting Started
 
-##### 1. Download [Anaconda (MacOS)](https://www.anaconda.com/download/#macos)
+##### Step 1: Download [Anaconda (MacOS)](https://www.anaconda.com/download/#macos)
 ```bash
 # Ensure the path to the "conda" command is in your $PATH
 cd
@@ -21,7 +21,7 @@ export PATH="/Users/{your-user-name}/anaconda3/bin:$PATH"
 :q
 ```
 
-##### 2. Make Project Directory
+##### Step 2: Make Project Directory
 ```bash
 # Create project folder on your desktop.
 cd Dekstop
@@ -29,7 +29,7 @@ mkdir Claremont-Independent-Report
 cd Claremont-Independent-Report
 ```
 
-##### 3. Create Virtual Environment
+##### Step 3: Create Virtual Environment
 ```bash
 # Create virtual environment in which to install packages.
 conda create --name ci-report
@@ -46,7 +46,7 @@ source activate ci-report
 ```
 Referece: [Setting Up a Conda Environtment](https://conda.io/docs/user-guide/getting-started.html)
 
-##### 3. Install Mozcape Package
+##### Step 4: Install Mozcape Package
 ```bash
 # Clone mozscape package from github and install the contents.
 git clone https://github.com/seomoz/SEOmozAPISamples.git
@@ -56,7 +56,7 @@ pip install .
 Reference: [Mozscape API - Python Code Examples](https://github.com/seomoz/SEOmozAPISamples/tree/master/python)
 
 
-##### 4. Launch Jupyter Lab
+##### Step 5: Launch Jupyter Lab
 ```bash
 # Go back to root of project folder and launch jupyter.
 cd ../..
@@ -64,7 +64,7 @@ jupyter lab
 ```
 Reference: [Jupyter Documenation](http://jupyterlab.readthedocs.io/en/latest/getting_started/installation.html) 
 
-##### 4. Import Necessary Libaries
+##### Step 6: Import Necessary Libaries
 ```python
 # Imports for python code to function properly
 import pprint, os, csv, json, pickle, requests, html5lib
